@@ -1,0 +1,28 @@
+# .NET build artifacts
+backend/bin/
+backend/obj/
+backend/*.db
+backend/*.db-shm
+backend/*.db-wal
+
+# Frontend build artifacts
+frontend/node_modules/
+frontend/dist/
+
+# Environment / secrets
+*.env
+.env.local
+appsettings.Local.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.user
+
+# Claude
+.claude/
